@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<opnsense>
+    <dhcpd>
+        <lan>
+            <staticmap>
+                <mac>ac:8b:a9:bf:5f:7e</mac>
+                <ipaddr>192.168.248.2</ipaddr>
+                <hostname>unifi-usw-home-main-switch</hostname>
+                <descr>Main Switch</descr>
+                <winsserver></winsserver>
+                <dnsserver>8.8.8.8</dnsserver>
+                <ntpserver>129.6.15.28</ntpserver>
+            </staticmap>
+            <staticmap>
+                <mac>ac:8b:a9:bf:5f:7f</mac>
+                <ipaddr>192.168.248.4</ipaddr>
+                <hostname>test-switch-1</hostname>
+                <descr>Test Switch</descr>
+                <winsserver>192.168.248.5</winsserver>
+                <dnsserver>8.8.4.4</dnsserver>
+                <ntpserver></ntpserver>
+            </staticmap>
+        </lan>
+    </dhcpd>
+</opnsense>
