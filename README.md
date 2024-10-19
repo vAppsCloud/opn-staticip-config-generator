@@ -46,6 +46,8 @@ This script is designed to generate DHCP static IP reservation into an OPNSense-
 
   * The script is modular, with functions dedicated to specific tasks (validation, XML generation, etc.), making it easy to extend or modify specific features.
 
+## OPNSense Version
+Verified only on 24.7 release.
 
 ## Dependencies
 Here are the dependencies required to run the provided Python script, along with the compatible Python versions:
